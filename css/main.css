@@ -1,8 +1,8 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family:"Karma";
-  font-family:"Oswald";
+  font-family: Oswald, sans-serif;
+  font-family: Karma;
 }
 
 *, *::before, *::after {
@@ -18,10 +18,12 @@ main {
 }
 
 .name {
-  font-family:"Oswald";
+  font-family: Oswald;
+  font-size: 2rem;
   color: #6f00e7;
   margin: 0 0 1.5rem;
   text-align: center;
+  font-weight: normal;
 }
 
 ol {
@@ -32,7 +34,7 @@ ol {
   margin: 0;
 }
 
-ol li{
+ol li {
   display: block;
   background-color: #fff;
   border: 3px solid #987ffa;
@@ -43,10 +45,10 @@ ol li{
   justify-content: space-between;
 }
 
-nav ul{
-  display:flex;
+nav ul {
+  display: flex;
   flex-direction: column;
-  flex:auto;
+  align-items: center;
 }
 
 ul li {
@@ -56,7 +58,7 @@ ul li {
 
 p {
   margin: 0 0 auto;
-  font-family: "Karma";
+  font-family: Karma;
   text-align: center;
   font-size: 1.4rem;
 }
@@ -67,7 +69,7 @@ img .image {
 }
 
 a:first-child {
-  font-family: "Oswald";
+  font-family: Oswald;
   color: #fff;
   background-color: #6f00e7;
   text-decoration: none;
@@ -76,7 +78,7 @@ a:first-child {
   border-radius: 3em;
 }
 
-a:last-child{
+a:last-child {
   float: right;
 }
 
